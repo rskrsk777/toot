@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BAAB8E021DD73A400FA080E /* TootDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAAB8DF21DD73A400FA080E /* TootDB.swift */; };
 		2BCECE0221DD61CC0038A0C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCECE0121DD61CC0038A0C7 /* AppDelegate.swift */; };
 		2BCECE0421DD61CC0038A0C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCECE0321DD61CC0038A0C7 /* ViewController.swift */; };
 		2BCECE0721DD61CD0038A0C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCECE0521DD61CD0038A0C7 /* Main.storyboard */; };
 		2BCECE0921DD61CF0038A0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCECE0821DD61CF0038A0C7 /* Assets.xcassets */; };
 		2BCECE0C21DD61CF0038A0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCECE0A21DD61CF0038A0C7 /* LaunchScreen.storyboard */; };
+		65B8A263E26AE140CE4A9B3F /* Pods_toot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B623B9B2D5E960FB3283134E /* Pods_toot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BAAB8DF21DD73A400FA080E /* TootDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TootDB.swift; sourceTree = "<group>"; };
 		2BCECDFE21DD61CC0038A0C7 /* toot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCECE0121DD61CC0038A0C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BCECE0321DD61CC0038A0C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		2BCECE0821DD61CF0038A0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BCECE0B21DD61CF0038A0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BCECE0D21DD61CF0038A0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C89908175EF080AB87E4E7B /* Pods-toot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toot/Pods-toot.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC4054E5D01A7F44739A2B3 /* Pods-toot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toot.release.xcconfig"; path = "Pods/Target Support Files/Pods-toot/Pods-toot.release.xcconfig"; sourceTree = "<group>"; };
+		B623B9B2D5E960FB3283134E /* Pods_toot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B8A263E26AE140CE4A9B3F /* Pods_toot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				2BCECE0021DD61CC0038A0C7 /* toot */,
 				2BCECDFF21DD61CC0038A0C7 /* Products */,
+				378932E47D600189DC029090 /* Pods */,
+				8ACD658E53C04241BC970B96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +65,30 @@
 			children = (
 				2BCECE0121DD61CC0038A0C7 /* AppDelegate.swift */,
 				2BCECE0321DD61CC0038A0C7 /* ViewController.swift */,
+				2BAAB8DF21DD73A400FA080E /* TootDB.swift */,
 				2BCECE0521DD61CD0038A0C7 /* Main.storyboard */,
 				2BCECE0821DD61CF0038A0C7 /* Assets.xcassets */,
 				2BCECE0A21DD61CF0038A0C7 /* LaunchScreen.storyboard */,
 				2BCECE0D21DD61CF0038A0C7 /* Info.plist */,
 			);
 			path = toot;
+			sourceTree = "<group>";
+		};
+		378932E47D600189DC029090 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C89908175EF080AB87E4E7B /* Pods-toot.debug.xcconfig */,
+				ABC4054E5D01A7F44739A2B3 /* Pods-toot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ACD658E53C04241BC970B96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B623B9B2D5E960FB3283134E /* Pods_toot.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BCECE1021DD61CF0038A0C7 /* Build configuration list for PBXNativeTarget "toot" */;
 			buildPhases = (
+				E7731036685BAB0C60C83E87 /* [CP] Check Pods Manifest.lock */,
 				2BCECDFA21DD61CC0038A0C7 /* Sources */,
 				2BCECDFB21DD61CC0038A0C7 /* Frameworks */,
 				2BCECDFC21DD61CC0038A0C7 /* Resources */,
+				42FA0836685C30BFAFBA8906 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42FA0836685C30BFAFBA8906 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-toot/Pods-toot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toot/Pods-toot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7731036685BAB0C60C83E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BCECDFA21DD61CC0038A0C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BCECE0421DD61CC0038A0C7 /* ViewController.swift in Sources */,
+				2BAAB8E021DD73A400FA080E /* TootDB.swift in Sources */,
 				2BCECE0221DD61CC0038A0C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +359,7 @@
 		};
 		2BCECE1121DD61CF0038A0C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C89908175EF080AB87E4E7B /* Pods-toot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +378,7 @@
 		};
 		2BCECE1221DD61CF0038A0C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC4054E5D01A7F44739A2B3 /* Pods-toot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
